@@ -20,10 +20,10 @@ package core
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/gatechain/go-ethereum/core/state"
+	"github.com/gatechain/go-ethereum/core/types"
+	"github.com/gatechain/go-ethereum/log"
+	"github.com/gatechain/go-ethereum/rpc"
 )
 
 // WriteBlockAndSetHeadWithTime also counts processTime, which will cause intermittent TrieDirty cache writes

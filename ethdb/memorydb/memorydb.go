@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/gatechain/go-ethereum/common"
+	"github.com/gatechain/go-ethereum/ethdb"
 )
 
 var (
