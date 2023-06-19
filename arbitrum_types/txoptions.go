@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/gatechain/go-ethereum/common"
+	"github.com/gatechain/go-ethereum/common/hexutil"
+	"github.com/gatechain/go-ethereum/core/state"
+	"github.com/gatechain/go-ethereum/rpc"
 	"github.com/pkg/errors"
 )
 

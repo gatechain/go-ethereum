@@ -19,8 +19,8 @@ package logger
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/gatechain/go-ethereum/common"
+	"github.com/gatechain/go-ethereum/core/vm"
 )
 
 func (*AccessListTracer) CaptureArbitrumTransfer(env *vm.EVM, from, to *common.Address, value *big.Int, before bool, purpose string) {

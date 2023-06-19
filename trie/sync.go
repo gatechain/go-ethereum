@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/gatechain/go-ethereum/common"
+	"github.com/gatechain/go-ethereum/common/prque"
+	"github.com/gatechain/go-ethereum/core/rawdb"
+	"github.com/gatechain/go-ethereum/core/types"
+	"github.com/gatechain/go-ethereum/ethdb"
+	"github.com/gatechain/go-ethereum/log"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

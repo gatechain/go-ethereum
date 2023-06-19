@@ -17,8 +17,8 @@
 package types
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/gatechain/go-ethereum/common"
+	"github.com/gatechain/go-ethereum/crypto"
 )
 
 var (

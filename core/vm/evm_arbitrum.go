@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/gatechain/go-ethereum/common"
+	"github.com/gatechain/go-ethereum/core/types"
 )
 
 // Depth returns the current depth

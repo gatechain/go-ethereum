@@ -22,16 +22,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gatechain/go-ethereum/common"
+	"github.com/gatechain/go-ethereum/consensus"
+	"github.com/gatechain/go-ethereum/consensus/beacon"
+	"github.com/gatechain/go-ethereum/consensus/clique"
+	"github.com/gatechain/go-ethereum/consensus/ethash"
+	"github.com/gatechain/go-ethereum/core/rawdb"
+	"github.com/gatechain/go-ethereum/core/types"
+	"github.com/gatechain/go-ethereum/core/vm"
+	"github.com/gatechain/go-ethereum/crypto"
+	"github.com/gatechain/go-ethereum/params"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

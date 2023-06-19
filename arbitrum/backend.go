@@ -3,15 +3,15 @@ package arbitrum
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/arbitrum_types"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/shutdowncheck"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/gatechain/go-ethereum/arbitrum_types"
+	"github.com/gatechain/go-ethereum/core"
+	"github.com/gatechain/go-ethereum/core/bloombits"
+	"github.com/gatechain/go-ethereum/core/types"
+	"github.com/gatechain/go-ethereum/eth/filters"
+	"github.com/gatechain/go-ethereum/ethdb"
+	"github.com/gatechain/go-ethereum/event"
+	"github.com/gatechain/go-ethereum/internal/shutdowncheck"
+	"github.com/gatechain/go-ethereum/node"
 )
 
 type Backend struct {
